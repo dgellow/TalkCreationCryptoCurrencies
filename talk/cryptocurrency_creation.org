@@ -1,0 +1,155 @@
+* Summary
+  This academy is focused on the creation of crypto currencies. We are
+  in 2018, it has become easier than ever before to buy and sell
+  cryptocurrencies thanks to the hype around Bitcoin and other
+  alt-coins. But the underlying concepts are still a mystery for a lot
+  of people.
+
+  During this presentation we will try to remove that veil of mystery
+  by learning together how crypto currencies work and how they are
+  created. We will start with a general introduction to the crypto
+  world, then discuss the creation of a currency, and finally talk
+  about a new currency: OptioCoin!
+
+  Everybody is welcome, regardless of your technical skills or your
+  experience with crypto currencies! We are here to learn together and
+  start a discussion :)
+
+  (And yes, we will have cat gifs for bibi and other cat lovers!)
+
+* Part 1 - Crypto crash course
+** What a crypto currency is
+
+   The common definition is as follow: A cryptocurrency is a digital
+   currency that uses cryptography for =security=. It is difficult to
+   counterfeit, it is not issued by any central authority, it is
+   decentralized and public. Similar to the Euro a crypto currency is
+   a general purpose token that can be exchanged inbetween actors, for
+   good, services, speculation or anything else you could think of.
+   # For any practical purpose everything that is possible with so
+   # called fiat currencies is possible with cryptocurrencies, with some
+   # major expections that we will see.
+
+   # A crypto currency is a medium of exchange, created and
+   # stored in a blockchain.
+
+   - Define and explain encryption
+
+** What a crypto currency is not
+
+   It is important to understand some specificity of cryptocurrencies.
+
+   - Cryptocurrencies aren't controlled by one authority, such as a
+     central bank.
+
+   - No cash. They are completely digital as they only exist in the
+     network.
+
+   - No intrinsic value. They don't have any value in itself.
+
+** The concept of a distributed ledger, aka The Blockchain
+
+   "The Blockchain". The word you've seen everywhere, in any media
+   mentioning bitcoin or alt-coins. That's really the core of
+   cryptocurrencies, the major difference between fiat and crypto
+   currencies.
+
+   Let's start with something surely familiar to all of you. How do
+   normal payments work inbetween two actors? We have the actor A, the
+   actor B. A want to send money to B. The mechanism will always be
+   something simple, similar to:
+   1. Remove money from balance A (debit)
+   2. Add money to balance B (credit)
+
+   The balance is the sum of the past transactions. For this to work,
+   you need somewhere to keep a history of transactions, of debits and
+   credits, also called a ledger. Tha's how any financial institution
+   work.
+
+   This mechanism is trivial, very easy to understand and use. But it
+   relies on one core property. Trust. The actors have to trust the
+   ledger, the ledger owner and anyone that can interact with it. If I
+   send money from A to B using the payment company C, I have to trust
+   C to remove the amount from my balance, only once, and add it the
+   balance B, only once. I have to trust the company C to not change
+   past history.
+
+   Trust, that's what blockchains have been designed to solve.
+
+   A blockchain can be defined as follow: It is a persistent,
+   transparent, public, append-only ledger. you can add but not change
+   previous data within it. It does this through a mechanism for
+   creating consensus between distributed =actors=. They don't need to
+   trust each other, they only need to trust the mechanism by which
+   the consensus is arrived at.
+
+   The mechanism relies on some sort of challenge. Every actor on the
+   network participate but only one get a reward. The challenge is
+   based around validating new transactions and has been designed such
+   as no participant is able to solve it consistently more often than
+   anyone else on the network
+
+   # The mechanism relies on some sort of challenge such as no actor on
+   # the network is able to solve this challenge consistently more than
+   # anyone else on the network.
+   The goal is that no one can force the blockchain to accept a
+   particular entry into the ledger that other disagree on.
+
+   # A mechanism for a peer-to-peer network that can maintain updates to
+   # the ledger in such a way that it is impossible to defraud and alter
+   # after the fact.
+
+   The challenge is generally based on raw computing power but can
+   differ between blockchains as it is one of the main characteristic.
+
+   In another way, in the world of cryptocurrencies, the ledger is
+   truth.
+
+   # The technical definition: A persistent, transparent, public,
+   # append-only ledger. You can add but not change previous data within
+   # it. It does this through a mechanism for creating consensus between
+   # distributed actors. They don't need to trust each other, they only
+   # need to trust the mechanism by which the consensus is arrived
+   # at. For the case of a blockchain, the mechanism relies on some sort
+   # of challenge such as no one actor on the network is able to solve
+   # this challenge consistently more than anyone else on the
+   # network. In a way it is acting a randomization mechanism. The goal
+   # is that no one can force the blockchain to accept a particular
+   # entry into the ledger that other disagree on. One that relies on a
+   # mechanism for a peer-to-peer network that can maintain updates to
+   # the ledger and verify the updates in such a way that it is
+   # impossible to defraud and alter after the fact.
+
+** Overview of major currencies and their differences
+
+*** Bitcoin
+
+*** Ethereum
+
+*** Litecoin
+
+* Part 2 - Creation of crypto currency, the theory
+** Why?!
+
+- Ask the public
+- Because it's a good way to learn how the system work
+- Because it's cool
+
+** Whitepapers
+
+
+
+** General features
+** Forks vs Smart contracts vs New blockchain
+** Smart contracts in details
+
+* Part 3 - OptioCoin, genesis
+** Overview of the design
+** The birth of a new coin
+
+** Now what?
+
+* Sources
+
+- https://blockgeeks.com/guides/what-is-cryptocurrency/
+- https://medium.com/@micheledaliessi/how-does-the-blockchain-work-98c8cd01d2ae
